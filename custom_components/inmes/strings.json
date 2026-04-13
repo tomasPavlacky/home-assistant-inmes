@@ -1,0 +1,31 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "INMES Login",
+        "description": "Enter your INMES portal credentials (app.inmes.cz).",
+        "data": {
+          "email": "Email",
+          "password": "Password"
+        }
+      },
+      "reauth_confirm": {
+        "title": "INMES Re-authentication",
+        "description": "Your INMES credentials need to be updated.",
+        "data": {
+          "email": "Email",
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid email or password.",
+      "cannot_connect": "Cannot connect to INMES — check your internet connection.",
+      "unknown": "An unexpected error occurred."
+    },
+    "abort": {
+      "already_configured": "This INMES account is already configured.",
+      "reauth_successful": "Re-authentication was successful."
+    }
+  }
+}
